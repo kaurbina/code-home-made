@@ -1,0 +1,76 @@
+body{
+    font-family: 'Handlee', cursive; 
+    font-size: 18px;
+    background-color: cornflowerblue;
+}
+
+.all{
+    background-color: white; 
+    width: 460px;
+    height: 320px; 
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+.header{
+    overflow: hidden;
+    height: 62px;
+}
+
+.header h1{
+    font-size: 32px; 
+    margin: 0px;
+    display: inline;
+    position: relative;
+    top: 12px;
+}
+
+.header img{
+    max-width: 50px; 
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 8px;
+}
+
+.body {
+    overflow: hidden;
+    height: 211px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: right;
+    width: 40%;
+    margin-top: 20px;
+}
+
+.right input {
+    font-size: 18px;
+    font-family: 'Handlee', cursive;
+    display: block;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.buttom{
+    margin: auto;
+    width: 30%;
+}
+
+.buttom button{
+    background-color: slategray;
+    border: none;
+    border-bottom: gray;
+    font-family: 'Handlee', cursive; 
+    font-weight: bold;
+
+}
